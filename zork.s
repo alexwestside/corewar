@@ -1,7 +1,5 @@
-.name "zork
-name_"
-.comment "I'M ALIIIIVE
-comment_"
+.name "zorkname_"
+.comment "I'M ALIIIIVEcomment_"
 
 l2:
 	sti r1, %:live, %1

@@ -2,6 +2,11 @@
 
 void		valid(char **text, t_corewar *corewar)
 {
-	ft_name_comment(&corewar->bot.name, &corewar->bot.comment, text);
+	char 	*name;
+	char 	*comment;
+
+	ft_name_comment(&name, &comment, &text);
 	corewar->bot = ft_command(text);
+	corewar->bot.name = name;
+	corewar->bot.comment = comment;
 }

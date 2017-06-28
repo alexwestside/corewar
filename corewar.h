@@ -65,7 +65,7 @@ char					**ft_realloc(char ***std_in, unsigned long int len);
 unsigned long int		two_dem_strlen(char **s);
 char					**open_read(char *av);
 t_bot					ft_command(char **text);
-void 					ft_name_comment(char **name, char **comment, char **text);
+void 					ft_name_comment(char **name, char **comment, char ***text);
 unsigned int			hash_key(char *str);
 void		error(char *str);
 int 		collision(unsigned int *keys, unsigned int key);
