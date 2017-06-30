@@ -17,14 +17,20 @@ char		**ft_strsplit(char const *s, char c)
 	char	**res;
 	char	*p1;
 	char	**p2;
+	int		flag;
 
+	flag = (c == ' ' ? 1 : 0);
 	if (!s || !(res = malloc(sizeof(char*) * (ft_count_words(s, c) + 1))))
 		return (NULL);
 	p2 = res;
 	while (*s)
 	{
-		while (*s == c && *s && s++)
-			;
+		if (flag == 0)
+			while (*s == c && *s && s++)
+				;
+		else
+			while ((*s == ' ' || *s == '\t') && *s && s++)
+				;
 		if (*s)
 		{
 			if (!(p1 = malloc(ft_len_char(s, c) + 1)))
