@@ -1,13 +1,11 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/corewar.dir/main.c.o"
-  "CMakeFiles/corewar.dir/ft_name_comment.c.o"
+  "CMakeFiles/corewar.dir/asm_to_binary.c.o"
   "CMakeFiles/corewar.dir/ft_command.c.o"
-  "CMakeFiles/corewar.dir/valid.c.o"
-  "CMakeFiles/corewar.dir/open_read.c.o"
-  "CMakeFiles/corewar.dir/op.c.o"
-  "CMakeFiles/corewar.dir/hash.c.o"
+  "CMakeFiles/corewar.dir/ft_name_comment.c.o"
   "CMakeFiles/corewar.dir/ft_error.c.o"
   "CMakeFiles/corewar.dir/collision.c.o"
+  "CMakeFiles/corewar.dir/hash.c.o"
+  "CMakeFiles/corewar.dir/main.c.o"
   "corewar.pdb"
   "corewar"
 )

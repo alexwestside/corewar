@@ -6,6 +6,12 @@
 
 #IncludeRegexTransform: 
 
+/nfs/2016/m/maksenov/ClionProjects/corewar/asm_to_binary.c
+op.h
+/nfs/2016/m/maksenov/ClionProjects/corewar/op.h
+corewar.h
+/nfs/2016/m/maksenov/ClionProjects/corewar/corewar.h
+
 /nfs/2016/m/maksenov/ClionProjects/corewar/collision.c
 corewar.h
 /nfs/2016/m/maksenov/ClionProjects/corewar/corewar.h
@@ -80,15 +86,5 @@ unistd.h
 corewar.h
 /nfs/2016/m/maksenov/ClionProjects/corewar/corewar.h
 
-/nfs/2016/m/maksenov/ClionProjects/corewar/op.c
-corewar.h
-/nfs/2016/m/maksenov/ClionProjects/corewar/corewar.h
-
-/nfs/2016/m/maksenov/ClionProjects/corewar/open_read.c
-corewar.h
-/nfs/2016/m/maksenov/ClionProjects/corewar/corewar.h
-
-/nfs/2016/m/maksenov/ClionProjects/corewar/valid.c
-corewar.h
-/nfs/2016/m/maksenov/ClionProjects/corewar/corewar.h
+/nfs/2016/m/maksenov/ClionProjects/corewar/op.h
 

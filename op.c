@@ -34,13 +34,8 @@ t_op    op_tab[17] =
 */
 
 
-#include "corewar.h"
+#include "op.h"
 
-int op(char *str)
-{
-	int	i;
-
-	i = -1;
 	t_op op_tab[17] =
 			{
 					{"live",  1, {0},       1,  10,   "alive",                                0, 0},
@@ -60,11 +55,4 @@ int op(char *str)
 					{"aff",   1, {0},       16, 2,    "aff",                                  1, 0},
 					{0,       0, {0},       0,  0,    0,                                      0, 0}
 			};
-	while (op_tab[++i].command_name != 0)
-	{
-		if (!ft_strcmp(op_tab[i].command_name, str))
-			return (1);
-	}
-	return (0);
-}
 

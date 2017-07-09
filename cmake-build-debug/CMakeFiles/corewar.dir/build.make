@@ -57,57 +57,33 @@ include CMakeFiles/corewar.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/corewar.dir/flags.make
 
-CMakeFiles/corewar.dir/main.c.o: CMakeFiles/corewar.dir/flags.make
-CMakeFiles/corewar.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/m/maksenov/ClionProjects/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/corewar.dir/main.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/main.c.o   -c /nfs/2016/m/maksenov/ClionProjects/corewar/main.c
+CMakeFiles/corewar.dir/asm_to_binary.c.o: CMakeFiles/corewar.dir/flags.make
+CMakeFiles/corewar.dir/asm_to_binary.c.o: ../asm_to_binary.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/m/maksenov/ClionProjects/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/corewar.dir/asm_to_binary.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/asm_to_binary.c.o   -c /nfs/2016/m/maksenov/ClionProjects/corewar/asm_to_binary.c
 
-CMakeFiles/corewar.dir/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar.dir/main.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/m/maksenov/ClionProjects/corewar/main.c > CMakeFiles/corewar.dir/main.c.i
+CMakeFiles/corewar.dir/asm_to_binary.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar.dir/asm_to_binary.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/m/maksenov/ClionProjects/corewar/asm_to_binary.c > CMakeFiles/corewar.dir/asm_to_binary.c.i
 
-CMakeFiles/corewar.dir/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar.dir/main.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/m/maksenov/ClionProjects/corewar/main.c -o CMakeFiles/corewar.dir/main.c.s
+CMakeFiles/corewar.dir/asm_to_binary.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar.dir/asm_to_binary.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/m/maksenov/ClionProjects/corewar/asm_to_binary.c -o CMakeFiles/corewar.dir/asm_to_binary.c.s
 
-CMakeFiles/corewar.dir/main.c.o.requires:
+CMakeFiles/corewar.dir/asm_to_binary.c.o.requires:
 
-.PHONY : CMakeFiles/corewar.dir/main.c.o.requires
+.PHONY : CMakeFiles/corewar.dir/asm_to_binary.c.o.requires
 
-CMakeFiles/corewar.dir/main.c.o.provides: CMakeFiles/corewar.dir/main.c.o.requires
-	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/main.c.o.provides.build
-.PHONY : CMakeFiles/corewar.dir/main.c.o.provides
+CMakeFiles/corewar.dir/asm_to_binary.c.o.provides: CMakeFiles/corewar.dir/asm_to_binary.c.o.requires
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/asm_to_binary.c.o.provides.build
+.PHONY : CMakeFiles/corewar.dir/asm_to_binary.c.o.provides
 
-CMakeFiles/corewar.dir/main.c.o.provides.build: CMakeFiles/corewar.dir/main.c.o
-
-
-CMakeFiles/corewar.dir/ft_name_comment.c.o: CMakeFiles/corewar.dir/flags.make
-CMakeFiles/corewar.dir/ft_name_comment.c.o: ../ft_name_comment.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/m/maksenov/ClionProjects/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/corewar.dir/ft_name_comment.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/ft_name_comment.c.o   -c /nfs/2016/m/maksenov/ClionProjects/corewar/ft_name_comment.c
-
-CMakeFiles/corewar.dir/ft_name_comment.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar.dir/ft_name_comment.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/m/maksenov/ClionProjects/corewar/ft_name_comment.c > CMakeFiles/corewar.dir/ft_name_comment.c.i
-
-CMakeFiles/corewar.dir/ft_name_comment.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar.dir/ft_name_comment.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/m/maksenov/ClionProjects/corewar/ft_name_comment.c -o CMakeFiles/corewar.dir/ft_name_comment.c.s
-
-CMakeFiles/corewar.dir/ft_name_comment.c.o.requires:
-
-.PHONY : CMakeFiles/corewar.dir/ft_name_comment.c.o.requires
-
-CMakeFiles/corewar.dir/ft_name_comment.c.o.provides: CMakeFiles/corewar.dir/ft_name_comment.c.o.requires
-	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/ft_name_comment.c.o.provides.build
-.PHONY : CMakeFiles/corewar.dir/ft_name_comment.c.o.provides
-
-CMakeFiles/corewar.dir/ft_name_comment.c.o.provides.build: CMakeFiles/corewar.dir/ft_name_comment.c.o
+CMakeFiles/corewar.dir/asm_to_binary.c.o.provides.build: CMakeFiles/corewar.dir/asm_to_binary.c.o
 
 
 CMakeFiles/corewar.dir/ft_command.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/ft_command.c.o: ../ft_command.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/m/maksenov/ClionProjects/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/corewar.dir/ft_command.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/m/maksenov/ClionProjects/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/corewar.dir/ft_command.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/ft_command.c.o   -c /nfs/2016/m/maksenov/ClionProjects/corewar/ft_command.c
 
 CMakeFiles/corewar.dir/ft_command.c.i: cmake_force
@@ -129,105 +105,33 @@ CMakeFiles/corewar.dir/ft_command.c.o.provides: CMakeFiles/corewar.dir/ft_comman
 CMakeFiles/corewar.dir/ft_command.c.o.provides.build: CMakeFiles/corewar.dir/ft_command.c.o
 
 
-CMakeFiles/corewar.dir/valid.c.o: CMakeFiles/corewar.dir/flags.make
-CMakeFiles/corewar.dir/valid.c.o: ../valid.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/m/maksenov/ClionProjects/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/corewar.dir/valid.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/valid.c.o   -c /nfs/2016/m/maksenov/ClionProjects/corewar/valid.c
+CMakeFiles/corewar.dir/ft_name_comment.c.o: CMakeFiles/corewar.dir/flags.make
+CMakeFiles/corewar.dir/ft_name_comment.c.o: ../ft_name_comment.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/m/maksenov/ClionProjects/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/corewar.dir/ft_name_comment.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/ft_name_comment.c.o   -c /nfs/2016/m/maksenov/ClionProjects/corewar/ft_name_comment.c
 
-CMakeFiles/corewar.dir/valid.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar.dir/valid.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/m/maksenov/ClionProjects/corewar/valid.c > CMakeFiles/corewar.dir/valid.c.i
+CMakeFiles/corewar.dir/ft_name_comment.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar.dir/ft_name_comment.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/m/maksenov/ClionProjects/corewar/ft_name_comment.c > CMakeFiles/corewar.dir/ft_name_comment.c.i
 
-CMakeFiles/corewar.dir/valid.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar.dir/valid.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/m/maksenov/ClionProjects/corewar/valid.c -o CMakeFiles/corewar.dir/valid.c.s
+CMakeFiles/corewar.dir/ft_name_comment.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar.dir/ft_name_comment.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/m/maksenov/ClionProjects/corewar/ft_name_comment.c -o CMakeFiles/corewar.dir/ft_name_comment.c.s
 
-CMakeFiles/corewar.dir/valid.c.o.requires:
+CMakeFiles/corewar.dir/ft_name_comment.c.o.requires:
 
-.PHONY : CMakeFiles/corewar.dir/valid.c.o.requires
+.PHONY : CMakeFiles/corewar.dir/ft_name_comment.c.o.requires
 
-CMakeFiles/corewar.dir/valid.c.o.provides: CMakeFiles/corewar.dir/valid.c.o.requires
-	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/valid.c.o.provides.build
-.PHONY : CMakeFiles/corewar.dir/valid.c.o.provides
+CMakeFiles/corewar.dir/ft_name_comment.c.o.provides: CMakeFiles/corewar.dir/ft_name_comment.c.o.requires
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/ft_name_comment.c.o.provides.build
+.PHONY : CMakeFiles/corewar.dir/ft_name_comment.c.o.provides
 
-CMakeFiles/corewar.dir/valid.c.o.provides.build: CMakeFiles/corewar.dir/valid.c.o
-
-
-CMakeFiles/corewar.dir/open_read.c.o: CMakeFiles/corewar.dir/flags.make
-CMakeFiles/corewar.dir/open_read.c.o: ../open_read.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/m/maksenov/ClionProjects/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/corewar.dir/open_read.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/open_read.c.o   -c /nfs/2016/m/maksenov/ClionProjects/corewar/open_read.c
-
-CMakeFiles/corewar.dir/open_read.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar.dir/open_read.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/m/maksenov/ClionProjects/corewar/open_read.c > CMakeFiles/corewar.dir/open_read.c.i
-
-CMakeFiles/corewar.dir/open_read.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar.dir/open_read.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/m/maksenov/ClionProjects/corewar/open_read.c -o CMakeFiles/corewar.dir/open_read.c.s
-
-CMakeFiles/corewar.dir/open_read.c.o.requires:
-
-.PHONY : CMakeFiles/corewar.dir/open_read.c.o.requires
-
-CMakeFiles/corewar.dir/open_read.c.o.provides: CMakeFiles/corewar.dir/open_read.c.o.requires
-	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/open_read.c.o.provides.build
-.PHONY : CMakeFiles/corewar.dir/open_read.c.o.provides
-
-CMakeFiles/corewar.dir/open_read.c.o.provides.build: CMakeFiles/corewar.dir/open_read.c.o
-
-
-CMakeFiles/corewar.dir/op.c.o: CMakeFiles/corewar.dir/flags.make
-CMakeFiles/corewar.dir/op.c.o: ../op.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/m/maksenov/ClionProjects/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/corewar.dir/op.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/op.c.o   -c /nfs/2016/m/maksenov/ClionProjects/corewar/op.c
-
-CMakeFiles/corewar.dir/op.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar.dir/op.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/m/maksenov/ClionProjects/corewar/op.c > CMakeFiles/corewar.dir/op.c.i
-
-CMakeFiles/corewar.dir/op.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar.dir/op.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/m/maksenov/ClionProjects/corewar/op.c -o CMakeFiles/corewar.dir/op.c.s
-
-CMakeFiles/corewar.dir/op.c.o.requires:
-
-.PHONY : CMakeFiles/corewar.dir/op.c.o.requires
-
-CMakeFiles/corewar.dir/op.c.o.provides: CMakeFiles/corewar.dir/op.c.o.requires
-	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/op.c.o.provides.build
-.PHONY : CMakeFiles/corewar.dir/op.c.o.provides
-
-CMakeFiles/corewar.dir/op.c.o.provides.build: CMakeFiles/corewar.dir/op.c.o
-
-
-CMakeFiles/corewar.dir/hash.c.o: CMakeFiles/corewar.dir/flags.make
-CMakeFiles/corewar.dir/hash.c.o: ../hash.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/m/maksenov/ClionProjects/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/corewar.dir/hash.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/hash.c.o   -c /nfs/2016/m/maksenov/ClionProjects/corewar/hash.c
-
-CMakeFiles/corewar.dir/hash.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar.dir/hash.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/m/maksenov/ClionProjects/corewar/hash.c > CMakeFiles/corewar.dir/hash.c.i
-
-CMakeFiles/corewar.dir/hash.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar.dir/hash.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/m/maksenov/ClionProjects/corewar/hash.c -o CMakeFiles/corewar.dir/hash.c.s
-
-CMakeFiles/corewar.dir/hash.c.o.requires:
-
-.PHONY : CMakeFiles/corewar.dir/hash.c.o.requires
-
-CMakeFiles/corewar.dir/hash.c.o.provides: CMakeFiles/corewar.dir/hash.c.o.requires
-	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/hash.c.o.provides.build
-.PHONY : CMakeFiles/corewar.dir/hash.c.o.provides
-
-CMakeFiles/corewar.dir/hash.c.o.provides.build: CMakeFiles/corewar.dir/hash.c.o
+CMakeFiles/corewar.dir/ft_name_comment.c.o.provides.build: CMakeFiles/corewar.dir/ft_name_comment.c.o
 
 
 CMakeFiles/corewar.dir/ft_error.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/ft_error.c.o: ../ft_error.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/m/maksenov/ClionProjects/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/corewar.dir/ft_error.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/m/maksenov/ClionProjects/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/corewar.dir/ft_error.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/ft_error.c.o   -c /nfs/2016/m/maksenov/ClionProjects/corewar/ft_error.c
 
 CMakeFiles/corewar.dir/ft_error.c.i: cmake_force
@@ -251,7 +155,7 @@ CMakeFiles/corewar.dir/ft_error.c.o.provides.build: CMakeFiles/corewar.dir/ft_er
 
 CMakeFiles/corewar.dir/collision.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/collision.c.o: ../collision.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/m/maksenov/ClionProjects/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/corewar.dir/collision.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/m/maksenov/ClionProjects/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/corewar.dir/collision.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/collision.c.o   -c /nfs/2016/m/maksenov/ClionProjects/corewar/collision.c
 
 CMakeFiles/corewar.dir/collision.c.i: cmake_force
@@ -273,33 +177,78 @@ CMakeFiles/corewar.dir/collision.c.o.provides: CMakeFiles/corewar.dir/collision.
 CMakeFiles/corewar.dir/collision.c.o.provides.build: CMakeFiles/corewar.dir/collision.c.o
 
 
+CMakeFiles/corewar.dir/hash.c.o: CMakeFiles/corewar.dir/flags.make
+CMakeFiles/corewar.dir/hash.c.o: ../hash.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/m/maksenov/ClionProjects/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/corewar.dir/hash.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/hash.c.o   -c /nfs/2016/m/maksenov/ClionProjects/corewar/hash.c
+
+CMakeFiles/corewar.dir/hash.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar.dir/hash.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/m/maksenov/ClionProjects/corewar/hash.c > CMakeFiles/corewar.dir/hash.c.i
+
+CMakeFiles/corewar.dir/hash.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar.dir/hash.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/m/maksenov/ClionProjects/corewar/hash.c -o CMakeFiles/corewar.dir/hash.c.s
+
+CMakeFiles/corewar.dir/hash.c.o.requires:
+
+.PHONY : CMakeFiles/corewar.dir/hash.c.o.requires
+
+CMakeFiles/corewar.dir/hash.c.o.provides: CMakeFiles/corewar.dir/hash.c.o.requires
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/hash.c.o.provides.build
+.PHONY : CMakeFiles/corewar.dir/hash.c.o.provides
+
+CMakeFiles/corewar.dir/hash.c.o.provides.build: CMakeFiles/corewar.dir/hash.c.o
+
+
+CMakeFiles/corewar.dir/main.c.o: CMakeFiles/corewar.dir/flags.make
+CMakeFiles/corewar.dir/main.c.o: ../main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/m/maksenov/ClionProjects/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/corewar.dir/main.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/main.c.o   -c /nfs/2016/m/maksenov/ClionProjects/corewar/main.c
+
+CMakeFiles/corewar.dir/main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar.dir/main.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/m/maksenov/ClionProjects/corewar/main.c > CMakeFiles/corewar.dir/main.c.i
+
+CMakeFiles/corewar.dir/main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar.dir/main.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/m/maksenov/ClionProjects/corewar/main.c -o CMakeFiles/corewar.dir/main.c.s
+
+CMakeFiles/corewar.dir/main.c.o.requires:
+
+.PHONY : CMakeFiles/corewar.dir/main.c.o.requires
+
+CMakeFiles/corewar.dir/main.c.o.provides: CMakeFiles/corewar.dir/main.c.o.requires
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/main.c.o.provides.build
+.PHONY : CMakeFiles/corewar.dir/main.c.o.provides
+
+CMakeFiles/corewar.dir/main.c.o.provides.build: CMakeFiles/corewar.dir/main.c.o
+
+
 # Object files for target corewar
 corewar_OBJECTS = \
-"CMakeFiles/corewar.dir/main.c.o" \
-"CMakeFiles/corewar.dir/ft_name_comment.c.o" \
+"CMakeFiles/corewar.dir/asm_to_binary.c.o" \
 "CMakeFiles/corewar.dir/ft_command.c.o" \
-"CMakeFiles/corewar.dir/valid.c.o" \
-"CMakeFiles/corewar.dir/open_read.c.o" \
-"CMakeFiles/corewar.dir/op.c.o" \
-"CMakeFiles/corewar.dir/hash.c.o" \
+"CMakeFiles/corewar.dir/ft_name_comment.c.o" \
 "CMakeFiles/corewar.dir/ft_error.c.o" \
-"CMakeFiles/corewar.dir/collision.c.o"
+"CMakeFiles/corewar.dir/collision.c.o" \
+"CMakeFiles/corewar.dir/hash.c.o" \
+"CMakeFiles/corewar.dir/main.c.o"
 
 # External object files for target corewar
 corewar_EXTERNAL_OBJECTS =
 
-corewar: CMakeFiles/corewar.dir/main.c.o
-corewar: CMakeFiles/corewar.dir/ft_name_comment.c.o
+corewar: CMakeFiles/corewar.dir/asm_to_binary.c.o
 corewar: CMakeFiles/corewar.dir/ft_command.c.o
-corewar: CMakeFiles/corewar.dir/valid.c.o
-corewar: CMakeFiles/corewar.dir/open_read.c.o
-corewar: CMakeFiles/corewar.dir/op.c.o
-corewar: CMakeFiles/corewar.dir/hash.c.o
+corewar: CMakeFiles/corewar.dir/ft_name_comment.c.o
 corewar: CMakeFiles/corewar.dir/ft_error.c.o
 corewar: CMakeFiles/corewar.dir/collision.c.o
+corewar: CMakeFiles/corewar.dir/hash.c.o
+corewar: CMakeFiles/corewar.dir/main.c.o
 corewar: CMakeFiles/corewar.dir/build.make
+corewar: ../libft/libft.a
 corewar: CMakeFiles/corewar.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/nfs/2016/m/maksenov/ClionProjects/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking C executable corewar"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/nfs/2016/m/maksenov/ClionProjects/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking C executable corewar"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/corewar.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -307,15 +256,13 @@ CMakeFiles/corewar.dir/build: corewar
 
 .PHONY : CMakeFiles/corewar.dir/build
 
-CMakeFiles/corewar.dir/requires: CMakeFiles/corewar.dir/main.c.o.requires
-CMakeFiles/corewar.dir/requires: CMakeFiles/corewar.dir/ft_name_comment.c.o.requires
+CMakeFiles/corewar.dir/requires: CMakeFiles/corewar.dir/asm_to_binary.c.o.requires
 CMakeFiles/corewar.dir/requires: CMakeFiles/corewar.dir/ft_command.c.o.requires
-CMakeFiles/corewar.dir/requires: CMakeFiles/corewar.dir/valid.c.o.requires
-CMakeFiles/corewar.dir/requires: CMakeFiles/corewar.dir/open_read.c.o.requires
-CMakeFiles/corewar.dir/requires: CMakeFiles/corewar.dir/op.c.o.requires
-CMakeFiles/corewar.dir/requires: CMakeFiles/corewar.dir/hash.c.o.requires
+CMakeFiles/corewar.dir/requires: CMakeFiles/corewar.dir/ft_name_comment.c.o.requires
 CMakeFiles/corewar.dir/requires: CMakeFiles/corewar.dir/ft_error.c.o.requires
 CMakeFiles/corewar.dir/requires: CMakeFiles/corewar.dir/collision.c.o.requires
+CMakeFiles/corewar.dir/requires: CMakeFiles/corewar.dir/hash.c.o.requires
+CMakeFiles/corewar.dir/requires: CMakeFiles/corewar.dir/main.c.o.requires
 
 .PHONY : CMakeFiles/corewar.dir/requires
 

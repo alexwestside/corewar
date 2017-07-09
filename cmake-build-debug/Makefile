@@ -123,6 +123,33 @@ corewar/fast:
 	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/build
 .PHONY : corewar/fast
 
+asm_to_binary.o: asm_to_binary.c.o
+
+.PHONY : asm_to_binary.o
+
+# target to build an object file
+asm_to_binary.c.o:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/asm_to_binary.c.o
+.PHONY : asm_to_binary.c.o
+
+asm_to_binary.i: asm_to_binary.c.i
+
+.PHONY : asm_to_binary.i
+
+# target to preprocess a source file
+asm_to_binary.c.i:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/asm_to_binary.c.i
+.PHONY : asm_to_binary.c.i
+
+asm_to_binary.s: asm_to_binary.c.s
+
+.PHONY : asm_to_binary.s
+
+# target to generate assembly for a file
+asm_to_binary.c.s:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/asm_to_binary.c.s
+.PHONY : asm_to_binary.c.s
+
 collision.o: collision.c.o
 
 .PHONY : collision.o
@@ -285,87 +312,6 @@ main.c.s:
 	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/main.c.s
 .PHONY : main.c.s
 
-op.o: op.c.o
-
-.PHONY : op.o
-
-# target to build an object file
-op.c.o:
-	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/op.c.o
-.PHONY : op.c.o
-
-op.i: op.c.i
-
-.PHONY : op.i
-
-# target to preprocess a source file
-op.c.i:
-	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/op.c.i
-.PHONY : op.c.i
-
-op.s: op.c.s
-
-.PHONY : op.s
-
-# target to generate assembly for a file
-op.c.s:
-	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/op.c.s
-.PHONY : op.c.s
-
-open_read.o: open_read.c.o
-
-.PHONY : open_read.o
-
-# target to build an object file
-open_read.c.o:
-	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/open_read.c.o
-.PHONY : open_read.c.o
-
-open_read.i: open_read.c.i
-
-.PHONY : open_read.i
-
-# target to preprocess a source file
-open_read.c.i:
-	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/open_read.c.i
-.PHONY : open_read.c.i
-
-open_read.s: open_read.c.s
-
-.PHONY : open_read.s
-
-# target to generate assembly for a file
-open_read.c.s:
-	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/open_read.c.s
-.PHONY : open_read.c.s
-
-valid.o: valid.c.o
-
-.PHONY : valid.o
-
-# target to build an object file
-valid.c.o:
-	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/valid.c.o
-.PHONY : valid.c.o
-
-valid.i: valid.c.i
-
-.PHONY : valid.i
-
-# target to preprocess a source file
-valid.c.i:
-	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/valid.c.i
-.PHONY : valid.c.i
-
-valid.s: valid.c.s
-
-.PHONY : valid.s
-
-# target to generate assembly for a file
-valid.c.s:
-	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/valid.c.s
-.PHONY : valid.c.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -375,6 +321,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... corewar"
+	@echo "... asm_to_binary.o"
+	@echo "... asm_to_binary.i"
+	@echo "... asm_to_binary.s"
 	@echo "... collision.o"
 	@echo "... collision.i"
 	@echo "... collision.s"
@@ -393,15 +342,6 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... op.o"
-	@echo "... op.i"
-	@echo "... op.s"
-	@echo "... open_read.o"
-	@echo "... open_read.i"
-	@echo "... open_read.s"
-	@echo "... valid.o"
-	@echo "... valid.i"
-	@echo "... valid.s"
 .PHONY : help
 
 

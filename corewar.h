@@ -9,16 +9,13 @@ typedef struct			s_args
 {
 	char 				*arg_type;
 	char				*data;
-	struct s_args		*next;
 }						t_args;
 
 typedef struct			s_command
 {
 	char				*method;
 	char 				*command_name;
-	char 				*arg1;
-	char 				*arg2;
-	char 				*arg3;
+	t_args				arg[3];
 	struct s_command	*next;
 }						t_command;
 
@@ -44,17 +41,17 @@ typedef struct			s_corewar
 	int					registrs[16];
 }						t_corewar;
 
-typedef struct s_op
-{
-	char	*command_name;
-	int		count_args;
-	int		*args[3];
-	int		opcode;
-	int		cycles;
-	char	*description;
-	int		carry;
-	int		cod_octal;
-}				t_op;
+//typedef struct s_op
+//{
+//	char	*command_name;
+//	int		count_args;
+//	int		*args[3];
+//	int		opcode;
+//	int		cycles;
+//	char	*description;
+//	int		carry;
+//	int		cod_octal;
+//}				t_op;
 
 int			op(char *str);
 
@@ -69,5 +66,8 @@ void 					ft_name_comment(char **name, char **comment, char ***text);
 unsigned int			hash_key(char *str);
 void		error(char *str);
 int 		collision(unsigned int *keys, unsigned int key);
+
+void _asm(t_corewar corewar);
+char 				*ft_arg_type(char *str);
 
 #endif
