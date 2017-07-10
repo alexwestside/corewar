@@ -32,6 +32,12 @@ CMakeFiles/corewar.dir/ft_name_comment.c.o
  /nfs/2016/m/maksenov/ClionProjects/corewar/libft/ft_printf.h
  /nfs/2016/m/maksenov/ClionProjects/corewar/libft/get_next_line.h
  /nfs/2016/m/maksenov/ClionProjects/corewar/libft/libft.h
+CMakeFiles/corewar.dir/ft_strsplit_v2.c.o
+ /nfs/2016/m/maksenov/ClionProjects/corewar/corewar.h
+ /nfs/2016/m/maksenov/ClionProjects/corewar/ft_strsplit_v2.c
+ /nfs/2016/m/maksenov/ClionProjects/corewar/libft/ft_printf.h
+ /nfs/2016/m/maksenov/ClionProjects/corewar/libft/get_next_line.h
+ /nfs/2016/m/maksenov/ClionProjects/corewar/libft/libft.h
 CMakeFiles/corewar.dir/hash.c.o
  /nfs/2016/m/maksenov/ClionProjects/corewar/corewar.h
  /nfs/2016/m/maksenov/ClionProjects/corewar/hash.c

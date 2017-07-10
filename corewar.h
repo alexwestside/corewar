@@ -16,6 +16,7 @@ typedef struct			s_command
 	char				*method;
 	char 				*command_name;
 	t_args				arg[3];
+	int					count_args;
 	struct s_command	*next;
 }						t_command;
 
@@ -69,5 +70,7 @@ int 		collision(unsigned int *keys, unsigned int key);
 
 void _asm(t_corewar corewar);
 char 				*ft_arg_type(char *str);
+char		**ft_strsplit_2args(char const *s, char c1, char c2);
+size_t				ft_strclen(char *str, char c);
 
 #endif

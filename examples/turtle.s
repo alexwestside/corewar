@@ -1,8 +1,7 @@
 .name 		"turtle"
 .comment	"TURTLE FFS U LAMA"
 
-entry:
-	sti			r1, %:zork, %1
+entry: sti			r1, %:zork, %1
 	sti			r1, %:ardef, %1
 	sti			r1, %:avdef, %1
 	sti			r1, %:entry_l1, %1
@@ -18,7 +17,7 @@ entry_l1:
 ################################################################################
 
 ardef:
-	live		%42
+                live		%42
 	st			r2, -400
 	st			r2, -400
 	st			r2, -400

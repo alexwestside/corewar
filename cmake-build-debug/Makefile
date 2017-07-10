@@ -258,6 +258,33 @@ ft_name_comment.c.s:
 	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/ft_name_comment.c.s
 .PHONY : ft_name_comment.c.s
 
+ft_strsplit_v2.o: ft_strsplit_v2.c.o
+
+.PHONY : ft_strsplit_v2.o
+
+# target to build an object file
+ft_strsplit_v2.c.o:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/ft_strsplit_v2.c.o
+.PHONY : ft_strsplit_v2.c.o
+
+ft_strsplit_v2.i: ft_strsplit_v2.c.i
+
+.PHONY : ft_strsplit_v2.i
+
+# target to preprocess a source file
+ft_strsplit_v2.c.i:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/ft_strsplit_v2.c.i
+.PHONY : ft_strsplit_v2.c.i
+
+ft_strsplit_v2.s: ft_strsplit_v2.c.s
+
+.PHONY : ft_strsplit_v2.s
+
+# target to generate assembly for a file
+ft_strsplit_v2.c.s:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/ft_strsplit_v2.c.s
+.PHONY : ft_strsplit_v2.c.s
+
 hash.o: hash.c.o
 
 .PHONY : hash.o
@@ -336,6 +363,9 @@ help:
 	@echo "... ft_name_comment.o"
 	@echo "... ft_name_comment.i"
 	@echo "... ft_name_comment.s"
+	@echo "... ft_strsplit_v2.o"
+	@echo "... ft_strsplit_v2.i"
+	@echo "... ft_strsplit_v2.s"
 	@echo "... hash.o"
 	@echo "... hash.i"
 	@echo "... hash.s"

@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.7)
 project(corewar)
 set(CMAKE_CXX_STANDARD 11)
-set(SOURCE_FILES asm_to_binary.c op.h corewar.h ft_command.c ft_name_comment.c ft_error.c collision.c hash.c main.c)
+set(SOURCE_FILES asm_to_binary.c op.h corewar.h ft_command.c ft_name_comment.c ft_error.c collision.c hash.c main.c ft_strsplit_v2.c)
 add_executable(corewar ${SOURCE_FILES})
 target_link_libraries(corewar ${CMAKE_SOURCE_DIR}/libft/libft.a)

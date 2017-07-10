@@ -32,6 +32,12 @@ CMakeFiles/corewar.dir/ft_name_comment.c.o: ../libft/ft_printf.h
 CMakeFiles/corewar.dir/ft_name_comment.c.o: ../libft/get_next_line.h
 CMakeFiles/corewar.dir/ft_name_comment.c.o: ../libft/libft.h
 
+CMakeFiles/corewar.dir/ft_strsplit_v2.c.o: ../corewar.h
+CMakeFiles/corewar.dir/ft_strsplit_v2.c.o: ../ft_strsplit_v2.c
+CMakeFiles/corewar.dir/ft_strsplit_v2.c.o: ../libft/ft_printf.h
+CMakeFiles/corewar.dir/ft_strsplit_v2.c.o: ../libft/get_next_line.h
+CMakeFiles/corewar.dir/ft_strsplit_v2.c.o: ../libft/libft.h
+
 CMakeFiles/corewar.dir/hash.c.o: ../corewar.h
 CMakeFiles/corewar.dir/hash.c.o: ../hash.c
 CMakeFiles/corewar.dir/hash.c.o: ../libft/ft_printf.h

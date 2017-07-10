@@ -100,6 +100,9 @@
 		<Unit filename="/nfs/2016/m/maksenov/ClionProjects/corewar/ft_name_comment.c">
 			<Option target="corewar"/>
 		</Unit>
+		<Unit filename="/nfs/2016/m/maksenov/ClionProjects/corewar/ft_strsplit_v2.c">
+			<Option target="corewar"/>
+		</Unit>
 		<Unit filename="/nfs/2016/m/maksenov/ClionProjects/corewar/hash.c">
 			<Option target="corewar"/>
 		</Unit>
