@@ -285,6 +285,33 @@ ft_strsplit_v2.c.s:
 	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/ft_strsplit_v2.c.s
 .PHONY : ft_strsplit_v2.c.s
 
+ft_valid_command.o: ft_valid_command.c.o
+
+.PHONY : ft_valid_command.o
+
+# target to build an object file
+ft_valid_command.c.o:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/ft_valid_command.c.o
+.PHONY : ft_valid_command.c.o
+
+ft_valid_command.i: ft_valid_command.c.i
+
+.PHONY : ft_valid_command.i
+
+# target to preprocess a source file
+ft_valid_command.c.i:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/ft_valid_command.c.i
+.PHONY : ft_valid_command.c.i
+
+ft_valid_command.s: ft_valid_command.c.s
+
+.PHONY : ft_valid_command.s
+
+# target to generate assembly for a file
+ft_valid_command.c.s:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/ft_valid_command.c.s
+.PHONY : ft_valid_command.c.s
+
 hash.o: hash.c.o
 
 .PHONY : hash.o
@@ -339,6 +366,33 @@ main.c.s:
 	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/main.c.s
 .PHONY : main.c.s
 
+op.o: op.c.o
+
+.PHONY : op.o
+
+# target to build an object file
+op.c.o:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/op.c.o
+.PHONY : op.c.o
+
+op.i: op.c.i
+
+.PHONY : op.i
+
+# target to preprocess a source file
+op.c.i:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/op.c.i
+.PHONY : op.c.i
+
+op.s: op.c.s
+
+.PHONY : op.s
+
+# target to generate assembly for a file
+op.c.s:
+	$(MAKE) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/op.c.s
+.PHONY : op.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -366,12 +420,18 @@ help:
 	@echo "... ft_strsplit_v2.o"
 	@echo "... ft_strsplit_v2.i"
 	@echo "... ft_strsplit_v2.s"
+	@echo "... ft_valid_command.o"
+	@echo "... ft_valid_command.i"
+	@echo "... ft_valid_command.s"
 	@echo "... hash.o"
 	@echo "... hash.i"
 	@echo "... hash.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... op.o"
+	@echo "... op.i"
+	@echo "... op.s"
 .PHONY : help
 
 

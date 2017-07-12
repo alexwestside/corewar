@@ -1,4 +1,4 @@
-#include "corewar.h"
+#include "corewar_valid.h"
 
 void		valid(char **text, t_corewar *corewar)
 {

@@ -7,14 +7,12 @@
 #IncludeRegexTransform: 
 
 /nfs/2016/m/maksenov/ClionProjects/corewar/asm_to_binary.c
-op.h
-/nfs/2016/m/maksenov/ClionProjects/corewar/op.h
 corewar.h
 /nfs/2016/m/maksenov/ClionProjects/corewar/corewar.h
 
 /nfs/2016/m/maksenov/ClionProjects/corewar/collision.c
-corewar.h
-/nfs/2016/m/maksenov/ClionProjects/corewar/corewar.h
+corewar_valid.h
+/nfs/2016/m/maksenov/ClionProjects/corewar/corewar_valid.h
 
 /nfs/2016/m/maksenov/ClionProjects/corewar/corewar.h
 libft/libft.h
@@ -23,26 +21,36 @@ libft/get_next_line.h
 /nfs/2016/m/maksenov/ClionProjects/corewar/libft/get_next_line.h
 libft/ft_printf.h
 /nfs/2016/m/maksenov/ClionProjects/corewar/libft/ft_printf.h
+op.h
+/nfs/2016/m/maksenov/ClionProjects/corewar/op.h
 
-/nfs/2016/m/maksenov/ClionProjects/corewar/ft_command.c
+/nfs/2016/m/maksenov/ClionProjects/corewar/corewar_valid.h
 corewar.h
 /nfs/2016/m/maksenov/ClionProjects/corewar/corewar.h
+
+/nfs/2016/m/maksenov/ClionProjects/corewar/ft_command.c
+corewar_valid.h
+/nfs/2016/m/maksenov/ClionProjects/corewar/corewar_valid.h
 
 /nfs/2016/m/maksenov/ClionProjects/corewar/ft_error.c
 corewar.h
 /nfs/2016/m/maksenov/ClionProjects/corewar/corewar.h
 
 /nfs/2016/m/maksenov/ClionProjects/corewar/ft_name_comment.c
-corewar.h
-/nfs/2016/m/maksenov/ClionProjects/corewar/corewar.h
+corewar_valid.h
+/nfs/2016/m/maksenov/ClionProjects/corewar/corewar_valid.h
 
 /nfs/2016/m/maksenov/ClionProjects/corewar/ft_strsplit_v2.c
-corewar.h
-/nfs/2016/m/maksenov/ClionProjects/corewar/corewar.h
+corewar_valid.h
+/nfs/2016/m/maksenov/ClionProjects/corewar/corewar_valid.h
+
+/nfs/2016/m/maksenov/ClionProjects/corewar/ft_valid_command.c
+corewar_valid.h
+/nfs/2016/m/maksenov/ClionProjects/corewar/corewar_valid.h
 
 /nfs/2016/m/maksenov/ClionProjects/corewar/hash.c
-corewar.h
-/nfs/2016/m/maksenov/ClionProjects/corewar/corewar.h
+corewar_valid.h
+/nfs/2016/m/maksenov/ClionProjects/corewar/corewar_valid.h
 
 /nfs/2016/m/maksenov/ClionProjects/corewar/libft/ft_printf.h
 libft.h
@@ -87,8 +95,12 @@ unistd.h
 -
 
 /nfs/2016/m/maksenov/ClionProjects/corewar/main.c
-corewar.h
-/nfs/2016/m/maksenov/ClionProjects/corewar/corewar.h
+corewar_valid.h
+/nfs/2016/m/maksenov/ClionProjects/corewar/corewar_valid.h
+
+/nfs/2016/m/maksenov/ClionProjects/corewar/op.c
+op.h
+/nfs/2016/m/maksenov/ClionProjects/corewar/op.h
 
 /nfs/2016/m/maksenov/ClionProjects/corewar/op.h
 

@@ -1,5 +1,4 @@
 
-#include "op.h"
 #include "corewar.h"
 
 #define HEX_BASE "0123456789abcdef"

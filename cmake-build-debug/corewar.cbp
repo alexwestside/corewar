@@ -91,6 +91,9 @@
 		<Unit filename="/nfs/2016/m/maksenov/ClionProjects/corewar/corewar.h">
 			<Option target="corewar"/>
 		</Unit>
+		<Unit filename="/nfs/2016/m/maksenov/ClionProjects/corewar/corewar_valid.h">
+			<Option target="corewar"/>
+		</Unit>
 		<Unit filename="/nfs/2016/m/maksenov/ClionProjects/corewar/ft_command.c">
 			<Option target="corewar"/>
 		</Unit>
@@ -103,10 +106,16 @@
 		<Unit filename="/nfs/2016/m/maksenov/ClionProjects/corewar/ft_strsplit_v2.c">
 			<Option target="corewar"/>
 		</Unit>
+		<Unit filename="/nfs/2016/m/maksenov/ClionProjects/corewar/ft_valid_command.c">
+			<Option target="corewar"/>
+		</Unit>
 		<Unit filename="/nfs/2016/m/maksenov/ClionProjects/corewar/hash.c">
 			<Option target="corewar"/>
 		</Unit>
 		<Unit filename="/nfs/2016/m/maksenov/ClionProjects/corewar/main.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/nfs/2016/m/maksenov/ClionProjects/corewar/op.c">
 			<Option target="corewar"/>
 		</Unit>
 		<Unit filename="/nfs/2016/m/maksenov/ClionProjects/corewar/op.h">

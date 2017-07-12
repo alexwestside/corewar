@@ -10,9 +10,9 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "corewar.h"
+#include "corewar_valid.h"
 
-int		ft_len_char_2args(char const *s, char c1, char c2)
+size_t		ft_len_char_2args(char const *s, char c1, char c2)
 {
 	char *p;
 

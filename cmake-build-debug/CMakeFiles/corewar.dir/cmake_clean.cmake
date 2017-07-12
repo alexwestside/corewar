@@ -7,6 +7,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/corewar.dir/hash.c.o"
   "CMakeFiles/corewar.dir/main.c.o"
   "CMakeFiles/corewar.dir/ft_strsplit_v2.c.o"
+  "CMakeFiles/corewar.dir/ft_valid_command.c.o"
+  "CMakeFiles/corewar.dir/op.c.o"
   "corewar.pdb"
   "corewar"
 )

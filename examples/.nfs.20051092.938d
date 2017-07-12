@@ -3,7 +3,10 @@
 
 entry:
     sti			r1, %:zork, %1
+    #lfkdlfkdlkfldk
+    #################################
 	sti			r1, %:ardef, %1
+	#fogkfogkfogofkgfokgofk
 	sti			r1, %:avdef, %1
 	sti			r1, %:entry_l1, %1
 	ld			%0, r16
@@ -24,7 +27,9 @@ ardef:
 	st			r2, -400
 	st			r2, -400
 	st			r2, -400
+	#vcfgfgf
 	st			r2, -400
+		#vcfgfgf
 	st			r2, -400
 	st			r2, -400
 	st			r2, -400

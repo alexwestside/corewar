@@ -1,4 +1,4 @@
-#include "corewar.h"
+#include "corewar_valid.h"
 
 int 		collision(unsigned int *keys, unsigned int key)
 {
